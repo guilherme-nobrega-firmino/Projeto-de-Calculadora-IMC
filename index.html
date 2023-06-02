@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <p class="text1">Calculadora de Índice de Massa Corporal</p>
+            <p class="text2">Insira seus dados abaixo e compare seu resultado com nossa tabela.</p>
+        </header>
+
+        <main>
+            <div class="input">
+                <input placeholder="Insira seu Nome" type="text" id="name" />
+            </div>
+
+            <div class="input">
+                <input placeholder="Insira sua altura em M" type="number" id="altura" />
+            </div>
+
+            <div class="input">
+                <input placeholder="Insira seu Peso em Kg" type="number" id="peso" />
+            </div>
+
+            <div class="input">
+                <button id="button">Calcular IMC</button>
+            </div>
+
+            <div class="input">
+                <div id="resultado"></div>
+            </div>
+        </main>
+
+        <div class="tabela">
+            <img id="tabela" src="./Tabela.png" />
+        </div>
+
+        <footer>
+            <span>Todos os direitos reservados ©</span>
+            <span>Desenvolvido por: Guilherme Nóbrega</span>
+        </footer>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
